@@ -11,14 +11,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150220151707) do
-
-  create_table "bills", force: :cascade do |t|
-    t.integer  "staffer_id"
-    t.text     "bill_text"
-    t.integer  "vote_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+ActiveRecord::Schema.define(version: 0) do
 
 end

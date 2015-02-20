@@ -1,0 +1,6 @@
+<%= form_tag :action => :staffer_login do %>
+<%= text_field_tag :email, il, placeholder: "Email" %><br>
+<%= password_field_tag :password, nil, placeholder: "Password" %><br>
+<%= submit_tag 'Login' %><br>
+<!-- <%#= link_to "Sign Up", new_staffer_path %> -->
+<% end %>
