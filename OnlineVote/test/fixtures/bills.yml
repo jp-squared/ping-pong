@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  staffer_id: 1
+  bill_text: MyText
+  vote_id: 1
+
+two:
+  staffer_id: 1
+  bill_text: MyText
+  vote_id: 1
