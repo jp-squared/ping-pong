@@ -1,9 +1,9 @@
 class CreateVotes < ActiveRecord::Migration
   def change
     create_table :votes do |t|
+      t.boolean :vote_type
+      t.integer :bill_id
       t.integer :voter_id
-      t.string :senator_id
-      t.string :integer
 
       t.timestamps null: false
     end

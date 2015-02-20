@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :votes
+
   resources :staffers
 
   resources :bills
